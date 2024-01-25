@@ -1,0 +1,74 @@
+:root{
+    --Very-dark-blue: hsl(235, 21%, 11%),
+    --very-dark-desaturated Blue: hsl(235, 24%, 19%),
+    --light-grayish-blue: hsl(234, 39%, 85%),
+    --light-grayish-blue (hover): hsl(236, 33%, 92%)
+    --dark-grayish-blue: hsl(234, 11%, 52%)
+    --very-dark-grayish-blue: hsl(233, 14%, 35%)
+    --very-dark-grayish-blue: hsl(237, 14%, 26%)
+  }
+
+.main{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .form{
+        background-color: hsl(235, 24%, 19%);
+        padding: 6px 10px;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 5px;
+        .input{
+            padding: 1rem;
+            background-color: hsl(235, 24%, 19%);
+            border: none;
+            outline: none;
+            color: hsl(234, 39%, 85%);
+            font-size: 14px;
+            width: 95%;
+            &:hover{
+                background-color: hsl(237, 21%, 21%);
+            }
+            
+        }
+        .submit{
+            -webkit-appearance: none;
+            border: 1px solid hsl(234, 11%, 52%);
+            background-color: hsl(235, 24%, 19%);
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            cursor: pointer;
+            
+        }
+      
+    }
+      .todos{
+        border-radius: 6px;
+        background-color: hsl(235, 24%, 19%);
+        .todos-lower{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: hsl(234, 11%, 52%);
+            padding: 1rem;
+            .todos-lower-middle{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+            button{
+                background-color: hsl(235, 24%, 19%);
+                border: none;
+                color: hsl(234, 11%, 52%);
+
+            }
+        }
+}
+    
+}
